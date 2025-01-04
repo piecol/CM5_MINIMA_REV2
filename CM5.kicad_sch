@@ -4510,10 +4510,6 @@
 		(uuid "43b66222-bfda-4e62-8b44-b030d2ad6396")
 	)
 	(no_connect
-		(at 161.29 195.58)
-		(uuid "4aa1901b-2bd4-424d-9706-013f35902675")
-	)
-	(no_connect
 		(at 347.98 182.88)
 		(uuid "4b0c58ab-42cc-499a-a8ac-f5c3be0c84c2")
 	)
@@ -6177,7 +6173,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 195.58) (xy 161.29 195.58)
+			(xy 147.32 195.58) (xy 163.83 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8727,17 +8723,6 @@
 		)
 		(uuid "769fc82b-a995-47e6-9303-a72b157f9e3f")
 	)
-	(label "nRPIBOOT"
-		(at 149.86 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b7d157c-b711-4a67-8a57-301f8038e46e")
-	)
 	(label "HDMI_PI.SCL"
 		(at 240.03 205.74 0)
 		(fields_autoplaced yes)
@@ -9676,6 +9661,18 @@
 			(justify right)
 		)
 		(uuid "a5c410e2-dcc3-4a70-9b22-5905db959e69")
+	)
+	(hierarchical_label "nRPIBOOT"
+		(shape input)
+		(at 163.83 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abe8fed1-627a-4061-8ee5-c33d518da8ca")
 	)
 	(hierarchical_label "SCLK_GPIO21"
 		(shape input)

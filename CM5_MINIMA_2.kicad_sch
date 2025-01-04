@@ -1231,6 +1231,198 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -2222,10 +2414,6 @@
 		(uuid "30a47d39-b108-45cb-8003-177f5214f35e")
 	)
 	(no_connect
-		(at 234.95 80.01)
-		(uuid "39bd1b59-aa00-4792-a2d5-d423c014a4f0")
-	)
-	(no_connect
 		(at 120.65 73.66)
 		(uuid "3fd2cb53-de14-4a3e-8f97-14eb5685e73b")
 	)
@@ -2240,10 +2428,6 @@
 	(no_connect
 		(at 120.65 96.52)
 		(uuid "c5874ec5-6a97-4805-8ed9-a56825e02ebc")
-	)
-	(no_connect
-		(at 234.95 77.47)
-		(uuid "d309c4f1-f5f0-4375-973c-0e7577412b35")
 	)
 	(bus_entry
 		(at 71.12 74.93)
@@ -2735,6 +2919,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 163.83) (xy 107.95 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c35a44-3d47-482f-bb7f-e145a5797383")
+	)
+	(wire
+		(pts
 			(xy 31.75 114.3) (xy 31.75 118.11)
 		)
 		(stroke
@@ -2903,6 +3097,16 @@
 		)
 		(uuid "d5031e9e-ce7a-4c3c-868c-33a0b341196f")
 	)
+	(wire
+		(pts
+			(xy 107.95 149.86) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56772ae-be02-4345-a4d3-84119c95ea81")
+	)
 	(bus
 		(pts
 			(xy 73.66 72.39) (xy 73.66 77.47)
@@ -2992,6 +3196,16 @@
 			(type default)
 		)
 		(uuid "ea37f1b1-2d84-4fc6-8e1a-a0904c2f9e2e")
+	)
+	(wire
+		(pts
+			(xy 107.95 149.86) (xy 107.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea432faa-6e0d-4df5-98b9-3a103a931757")
 	)
 	(wire
 		(pts
@@ -6380,9 +6594,145 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 107.95 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6832cdf-0cff-45a6-afec-ed8fa3044c6c")
+		(property "Reference" "JP101"
+			(at 105.41 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "nRPIBOOT"
+			(at 105.41 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c33ed429-cfa0-4c49-916e-8826257293ba")
+		)
+		(pin "2"
+			(uuid "e422840a-8097-490d-9e17-94da2209bdc8")
+		)
+		(instances
+			(project ""
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "JP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7718ac3-37a7-4be0-9f96-250b579810e7")
+		(property "Reference" "#PWR0105"
+			(at 107.95 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dcfab7d-ad46-425e-a319-24de65c013c6")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 77.47 127.635)
-		(size 25.4 14.605)
+		(at 77.47 130.175)
+		(size 25.4 12.065)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6393,7 +6743,7 @@
 		)
 		(uuid "23331233-7b48-43e1-9e62-b93026b1cf98")
 		(property "Sheetname" "USB"
-			(at 77.47 126.9234 0)
+			(at 77.47 129.4634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,8 +6792,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 148.59)
-		(size 20.32 10.16)
+		(at 214.63 150.495)
+		(size 20.32 8.255)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6454,7 +6804,7 @@
 		)
 		(uuid "29e14cfc-43e7-41fe-875d-98b3ba239812")
 		(property "Sheetname" "HDMI"
-			(at 214.63 147.8784 0)
+			(at 214.63 149.7834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,6 +7255,16 @@
 			)
 			(uuid "d69cab3f-4d97-4869-a1dd-72193109070e")
 		)
+		(pin "nRPIBOOT" input
+			(at 123.19 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc088e99-1b80-4ea1-9a69-de47fddf7a11")
+		)
 		(instances
 			(project "CM5_MINIMA_2"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
@@ -6914,8 +7274,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 36.195)
-		(size 20.32 56.515)
+		(at 214.63 46.355)
+		(size 20.32 46.355)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6926,7 +7286,7 @@
 		)
 		(uuid "4ce4cfa7-ba20-49b9-8014-333351d4c7f7")
 		(property "Sheetname" "IO"
-			(at 214.63 35.4834 0)
+			(at 214.63 45.6434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,26 +7365,6 @@
 				(justify left)
 			)
 			(uuid "a5a442f9-71a3-4542-913d-18bbd9cd073e")
-		)
-		(pin "IO6" bidirectional
-			(at 234.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "af3e4257-6155-4898-848a-e707e7321b13")
-		)
-		(pin "IO5" input
-			(at 234.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "59c63f02-9add-4609-9347-25d3aa3bbccc")
 		)
 		(pin "MOSI" input
 			(at 214.63 74.93 180)
@@ -7125,8 +7465,8 @@
 		)
 	)
 	(sheet
-		(at 77.47 102.235)
-		(size 25.4 19.05)
+		(at 77.47 104.14)
+		(size 25.4 17.145)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7137,7 +7477,7 @@
 		)
 		(uuid "6f7bbb61-5128-4260-b2f7-4ae929abd2cd")
 		(property "Sheetname" "Ethernet"
-			(at 77.47 101.5234 0)
+			(at 77.47 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,8 +7536,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 127)
-		(size 20.955 15.24)
+		(at 214.63 128.905)
+		(size 20.955 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7208,7 +7548,7 @@
 		)
 		(uuid "dfcad93f-237c-447f-97c6-9ae1ae372fa5")
 		(property "Sheetname" "PCIe-M2"
-			(at 214.63 126.2884 0)
+			(at 214.63 128.1934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,8 +7605,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 99.695)
-		(size 20.955 20.32)
+		(at 214.63 102.235)
+		(size 20.955 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7277,7 +7617,7 @@
 		)
 		(uuid "dfe055fd-896e-497d-b242-c071b2f18dd1")
 		(property "Sheetname" "DSI_CSI"
-			(at 214.63 98.9834 0)
+			(at 214.63 101.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
