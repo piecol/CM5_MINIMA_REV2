@@ -3,6 +3,7 @@ _Compact, feature-filled, CM5 LoRaWAN carrier board_
 
 ## **Warning**:
 The board is untested, but DRC looks fine. I will send out for production before the end of January 2025 and likely test the board by end January 2025.
+
 Rev1 works fine, chek my LinkedIn for some more info or the hackster.io article:
 
 https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what-a98a93
