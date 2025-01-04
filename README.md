@@ -37,9 +37,6 @@ PCBWay 6L standard stackup
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pierluigicj)
 
 
-
-
- ![PCB](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/PCB.png)
  ![F](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/F.png)
  ![SIDE](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/SIDE.png)
  ![B](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/B.png)
