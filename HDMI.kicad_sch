@@ -1447,8 +1447,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
+			(property "Reference" "U405"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1456,14 +1456,14 @@
 				)
 			)
 			(property "Value" "STMPS2151STR"
-				(at 0 -7.62 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1533,7 +1533,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "STMPS2151STR_1_1"
+				(pin power_out line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "VOUT"
@@ -1551,7 +1553,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "GND"
@@ -1569,7 +1571,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "FAULT"
@@ -1587,7 +1589,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "EN"
@@ -1605,7 +1607,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "VIN"
@@ -1616,6 +1618,126 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1943,16 +2065,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 39.37) (xy 38.1 39.37)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0f7ba2c9-20b7-4687-a6f3-bce3bb350df5")
-	)
-	(wire
-		(pts
 			(xy 67.31 39.37) (xy 82.55 39.37)
 		)
 		(stroke
@@ -2153,16 +2265,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 25.4) (xy 167.64 25.4)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "89a4b4ea-1a66-4f7e-8d13-1c0a243af068")
-	)
-	(wire
-		(pts
 			(xy 130.81 35.56) (xy 157.48 35.56)
 		)
 		(stroke
@@ -2350,6 +2452,16 @@
 			(type default)
 		)
 		(uuid "eebfc6ff-d5b6-4267-a32e-bcd8d2363211")
+	)
+	(wire
+		(pts
+			(xy 24.13 39.37) (xy 38.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f1371245-94b8-47fc-8c61-7cfddd3a07a2")
 	)
 	(wire
 		(pts
@@ -2544,17 +2656,6 @@
 		)
 		(uuid "57c69920-d3c0-451f-9b53-9056862e5288")
 	)
-	(label "HDMI_5v"
-		(at 93.98 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e8e3833-218b-464b-8cc6-22ce6b49685a")
-	)
 	(label "HDMI_C.D2_N"
 		(at 137.16 38.1 0)
 		(fields_autoplaced yes)
@@ -2621,17 +2722,6 @@
 		)
 		(uuid "bfec8bf9-3962-418f-8bc0-34e4f45dad2f")
 	)
-	(label "HDMI_5v"
-		(at 158.75 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9612048-4e6e-4b5f-b94f-1648b0bbbacd")
-	)
 	(label "HDMI_C.D2_N"
 		(at 21.59 83.82 90)
 		(fields_autoplaced yes)
@@ -2666,7 +2756,7 @@
 		(uuid "eb42791d-2a43-4dd3-9a5c-931105ae36d4")
 	)
 	(hierarchical_label "HDMI_C{HDMI}"
-		(shape input)
+		(shape output)
 		(at 119.38 26.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2677,17 +2767,71 @@
 		)
 		(uuid "0b5c980a-4941-4995-bcad-bfd661c8b68a")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 19.05 39.37 180)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "185ee624-73ed-449a-bd57-31edb2dd1111")
+		(property "Reference" "#PWR0410"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "c17edd92-6ec7-448b-bc7e-88ac4392696d")
+		(property "Value" "HDMI_+5V"
+			(at 167.64 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d37440-11a8-4832-a1af-9857093f2269")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/29e14cfc-43e7-41fe-875d-98b3ba239812"
+					(reference "#PWR0410")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2749,6 +2893,138 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/29e14cfc-43e7-41fe-875d-98b3ba239812"
 					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 19.05 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4214ec8e-2278-4a50-9ad8-1c8057966618")
+		(property "Reference" "#PWR0408"
+			(at 19.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 19.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc378719-c0a3-49de-9670-62cb3fb7f594")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/29e14cfc-43e7-41fe-875d-98b3ba239812"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "643ad465-bece-43c5-a6d4-ef56465c2b53")
+		(property "Reference" "#PWR0409"
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "HDMI_+5V"
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c93f984-1730-4c42-8dc4-2218d0a8b77f")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/29e14cfc-43e7-41fe-875d-98b3ba239812"
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)

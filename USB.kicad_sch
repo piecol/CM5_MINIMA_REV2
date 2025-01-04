@@ -619,8 +619,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "USB"
-				(at 0 25.4 0)
+			(property "Reference" "USB701"
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -628,7 +628,7 @@
 				)
 			)
 			(property "Value" "TYPEC-305-ACP16H458"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -694,7 +694,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 20.32 270)
 					(length 2.54)
 					(name "EP"
@@ -712,7 +712,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -13.97 12.7 0)
 					(length 2.54)
 					(name "GND"
@@ -730,7 +730,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -13.97 -15.24 0)
 					(length 2.54)
 					(name "GND"
@@ -748,7 +748,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -13.97 5.08 0)
 					(length 2.54)
 					(name "VBUS"
@@ -766,7 +766,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -13.97 2.54 0)
 					(length 2.54)
 					(name "CC1"
@@ -784,7 +784,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -13.97 0 0)
 					(length 2.54)
 					(name "D+"
@@ -802,7 +802,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -13.97 -2.54 0)
 					(length 2.54)
 					(name "D-"
@@ -820,7 +820,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -13.97 -5.08 0)
 					(length 2.54)
 					(name "SUB1"
@@ -838,7 +838,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -13.97 -7.62 0)
 					(length 2.54)
 					(name "VBUS"
@@ -856,7 +856,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 13.97 -15.24 180)
 					(length 2.54)
 					(name "GND"
@@ -874,7 +874,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 13.97 12.7 180)
 					(length 2.54)
 					(name "GND"
@@ -892,7 +892,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 13.97 -7.62 180)
 					(length 2.54)
 					(name "VBUS"
@@ -910,7 +910,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 13.97 -5.08 180)
 					(length 2.54)
 					(name "CC2"
@@ -928,7 +928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 13.97 -2.54 180)
 					(length 2.54)
 					(name "D+"
@@ -946,7 +946,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 13.97 0 180)
 					(length 2.54)
 					(name "D-"
@@ -964,7 +964,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 2.54 180)
 					(length 2.54)
 					(name "SUB2"
@@ -982,7 +982,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 13.97 5.08 180)
 					(length 2.54)
 					(name "VBUS"
@@ -1234,6 +1234,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1409,16 +1529,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 82.55) (xy 36.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6aff92-678b-4173-9276-002c27ba0c6c")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 139.7 87.63)
 		)
 		(stroke
@@ -1446,6 +1556,16 @@
 			(type default)
 		)
 		(uuid "28e21392-6773-44be-9360-c1d532bc8a0d")
+	)
+	(wire
+		(pts
+			(xy 27.94 71.12) (xy 27.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aaea642-f8f5-4ac1-a101-00413ec651c3")
 	)
 	(bus
 		(pts
@@ -1549,16 +1669,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 31.75) (xy 30.48 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7d787b-c78b-45fc-b7c5-6cb738329ee5")
-	)
-	(wire
-		(pts
 			(xy 101.6 95.25) (xy 113.03 95.25)
 		)
 		(stroke
@@ -1576,6 +1686,16 @@
 			(type default)
 		)
 		(uuid "7cbe6a5f-f158-4224-9ed5-e6929e22cd94")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecca5da-1e9c-454f-bc31-25ede42a65ca")
 	)
 	(wire
 		(pts
@@ -1649,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 95.25) (xy 36.83 95.25)
+			(xy 29.21 95.25) (xy 36.83 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1776,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "d3cf1fab-408d-4d9c-abb8-8362d3f8cc1f")
+	)
+	(wire
+		(pts
+			(xy 27.94 82.55) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6c3e6d-19e7-4991-8e00-ada3b1a30e0d")
 	)
 	(wire
 		(pts
@@ -1913,17 +2043,6 @@
 		)
 		(uuid "1387689c-fce4-4a28-aa5c-4a119fe744b6")
 	)
-	(label "_5V"
-		(at 30.48 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16361148-d132-4275-b0f2-d421ddbc5856")
-	)
 	(label "USB2C.D_P"
 		(at 76.2 90.17 180)
 		(fields_autoplaced yes)
@@ -1934,61 +2053,6 @@
 			(justify right bottom)
 		)
 		(uuid "173347dd-563e-450a-9a1c-cc2457735af4")
-	)
-	(label "VBUS"
-		(at 73.66 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d8b1d10-d405-4b6e-b145-12ebe6a0f5b0")
-	)
-	(label "_5V"
-		(at 58.42 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "331a42cb-0e94-4d3a-83b4-3a5d2b551c5e")
-	)
-	(label "_5V"
-		(at 109.22 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38ca0cab-7cad-4f57-a47f-8bd2c1e67d49")
-	)
-	(label "VBUS"
-		(at 27.94 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e682c68-ca3e-405a-b658-38d3956f5b29")
-	)
-	(label "_5V"
-		(at 113.03 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6add0234-2a83-467f-9889-0cc1a8329a41")
 	)
 	(label "CC1"
 		(at 27.94 85.09 0)
@@ -2012,28 +2076,6 @@
 		)
 		(uuid "78f62378-19a8-4307-8037-20ee1dbe15e3")
 	)
-	(label "VBUS"
-		(at 27.94 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "860341de-2e96-47e3-a8f2-e143750c7b27")
-	)
-	(label "VBUS"
-		(at 156.21 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "867a2e63-cad4-446c-9940-c7a09256fd8c")
-	)
 	(label "CC1"
 		(at 101.6 95.25 0)
 		(fields_autoplaced yes)
@@ -2044,17 +2086,6 @@
 			(justify left bottom)
 		)
 		(uuid "b24dcad1-4bed-4301-8121-48448440b6d9")
-	)
-	(label "VBUS"
-		(at 73.66 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5b34db5-2cc4-4819-831b-af66d0df6330")
 	)
 	(label "USB2C.D_P"
 		(at 25.4 87.63 0)
@@ -2112,18 +2143,6 @@
 		)
 		(uuid "0777bd3b-ae81-4a6e-a50f-2e3353fafb79")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 20.32 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "390e153c-c3fd-4af3-a861-e778bb19076e")
-	)
 	(hierarchical_label "USB2C{USB}"
 		(shape input)
 		(at 80.01 81.28 0)
@@ -2135,6 +2154,72 @@
 			(justify left)
 		)
 		(uuid "bd8cb829-a8b6-4053-b159-89819134f78e")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 113.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05e3a6af-86ab-46b4-a338-e616955b22e7")
+		(property "Reference" "#PWR0609"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ff358a-705b-4186-95cd-d4a0189166ef")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2542,6 +2627,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418e1cc7-2373-48e6-ab3c-c6d6bfdffb72")
+		(property "Reference" "#PWR0615"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_USB2.0"
+			(at 77.47 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f781cd-8346-4fa8-8851-98108dbbbc74")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 146.05 43.18 0)
 		(unit 1)
@@ -2854,6 +3006,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
 					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60cd6c90-eaaa-4b4d-8ef1-dbd09af29ad2")
+		(property "Reference" "#PWR0605"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baffade9-2171-4f7e-9bf1-c97494744cca")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -3187,6 +3405,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 29.21 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af23950-56a8-4efb-ad7a-b3059bc420d7")
+		(property "Reference" "#PWR0614"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_USB2.0"
+			(at 25.4 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67885f52-b11c-47c3-8da6-369bcc0131d0")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 67.31 180)
 		(unit 1)
@@ -3382,6 +3667,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ca36da-342c-49b4-952c-9810691a8273")
+		(property "Reference" "#PWR0611"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_USB2.0"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe12ba14-f911-449d-b45b-4f51cbba107d")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55eaa3a-30fb-4011-b861-3eb68059675d")
+		(property "Reference" "#PWR0612"
+			(at 27.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_USB2.0"
+			(at 27.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a24d38-b390-4d8c-aebd-6eec3658598c")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 45.72 0)
 		(unit 1)
@@ -3564,6 +3981,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
 					(reference "R701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d20a4b3e-a0e5-4120-8dba-a2611e10c441")
+		(property "Reference" "#PWR0613"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_USB2.0"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796ab640-05a6-4d8d-bab9-8a378f991e1a")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -3829,6 +4312,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
 					(reference "R702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0836d2-7c34-45da-92b8-e279512eb39d")
+		(property "Reference" "#PWR0603"
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f74253c-de8f-4df5-830d-b675886660e4")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/23331233-7b48-43e1-9e62-b93026b1cf98"
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)

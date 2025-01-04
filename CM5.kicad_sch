@@ -11,174 +11,6 @@
 		(company "Pierluigi Colangeli")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "New_Library:ComputeModule5-CM5_GPIO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4404,6 +4236,12 @@
 		(uuid "67fdf240-22c0-40e0-9099-99570b7c5cf0")
 	)
 	(junction
+		(at 242.57 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681889f2-b4cb-4375-b9ae-5138bbaefb01")
+	)
+	(junction
 		(at 265.43 149.86)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -4704,6 +4542,10 @@
 		(uuid "65de8be9-09ad-436e-a877-49a82551e74f")
 	)
 	(no_connect
+		(at 71.12 119.38)
+		(uuid "6666cb26-5676-4213-9807-4a0c0e06ec10")
+	)
+	(no_connect
 		(at 345.44 152.4)
 		(uuid "683cb628-cfdb-45fd-9ecc-e753cfab4664")
 	)
@@ -4726,10 +4568,6 @@
 	(no_connect
 		(at 86.36 165.1)
 		(uuid "86546131-daf6-4457-bfe5-3585cd654fa4")
-	)
-	(no_connect
-		(at 161.29 158.75)
-		(uuid "86a37bde-c81d-42c5-ba18-ad9b28e9cfd5")
 	)
 	(no_connect
 		(at 71.12 124.46)
@@ -4760,6 +4598,10 @@
 		(uuid "a6d7d767-9b2b-4a0c-be12-ffa4e98adadf")
 	)
 	(no_connect
+		(at 161.29 124.46)
+		(uuid "a830bd05-5447-4990-8a78-8dbe5b7c048f")
+	)
+	(no_connect
 		(at 345.44 167.64)
 		(uuid "a96af03f-609a-4152-86d7-d829b2758c63")
 	)
@@ -4770,6 +4612,10 @@
 	(no_connect
 		(at 251.46 152.4)
 		(uuid "ad5ab7cb-6c3a-4b2e-93e5-8ad23b39c84a")
+	)
+	(no_connect
+		(at 161.29 147.32)
+		(uuid "ad8f65e9-dc6d-4500-8257-617a346bceaa")
 	)
 	(no_connect
 		(at 71.12 106.68)
@@ -4802,6 +4648,10 @@
 	(no_connect
 		(at 161.29 116.84)
 		(uuid "d17e1b80-af17-45f5-90ee-fefd1491b3ff")
+	)
+	(no_connect
+		(at 71.12 114.3)
+		(uuid "d4109e9f-934e-4858-b02d-675283ea37cf")
 	)
 	(no_connect
 		(at 251.46 162.56)
@@ -4838,10 +4688,6 @@
 	(no_connect
 		(at 71.12 144.78)
 		(uuid "f138db3c-481c-4abd-ae2f-65ce22c8e77e")
-	)
-	(no_connect
-		(at 345.44 91.44)
-		(uuid "f179939f-2cd6-49d4-8a73-3444f40194f4")
 	)
 	(no_connect
 		(at 86.36 162.56)
@@ -5052,6 +4898,15 @@
 			(type default)
 		)
 		(uuid "58d12afc-405c-4857-a00b-4c40aeff0f56")
+	)
+	(bus_entry
+		(at 346.71 91.44)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5517a3-4e12-4bca-9ad5-105c229fa38d")
 	)
 	(bus_entry
 		(at 237.49 170.18)
@@ -5760,6 +5615,16 @@
 		)
 		(uuid "2b3ec567-ea6f-4620-bb9a-a1e6b46df57d")
 	)
+	(bus
+		(pts
+			(xy 349.25 57.15) (xy 242.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7ade5b-190f-4228-997a-a393e4ebe9df")
+	)
 	(wire
 		(pts
 			(xy 331.47 195.58) (xy 331.47 203.2)
@@ -5922,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 86.36 114.3)
+			(xy 71.12 114.3) (xy 86.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6722,7 +6587,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 163.83 124.46)
+			(xy 147.32 124.46) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6607,7 @@
 	)
 	(bus
 		(pts
-			(xy 241.3 74.93) (xy 242.57 74.93)
+			(xy 241.3 48.26) (xy 242.57 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6942,7 +6807,7 @@
 	)
 	(bus
 		(pts
-			(xy 345.44 74.93) (xy 345.44 81.28)
+			(xy 345.44 72.39) (xy 345.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7410,6 +7275,16 @@
 		)
 		(uuid "b7fcbf4f-d014-4b91-9902-23834be8a1e0")
 	)
+	(bus
+		(pts
+			(xy 349.25 88.9) (xy 349.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8369873-f1cd-4162-a10a-7129d1e6b64f")
+	)
 	(wire
 		(pts
 			(xy 71.12 149.86) (xy 86.36 149.86)
@@ -7502,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 157.48 147.32)
+			(xy 147.32 147.32) (xy 161.29 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7572,7 +7447,7 @@
 	)
 	(bus
 		(pts
-			(xy 242.57 78.74) (xy 242.57 74.93)
+			(xy 242.57 78.74) (xy 242.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7742,13 +7617,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 86.36 119.38)
+			(xy 71.12 119.38) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "ced5f956-94c7-4195-8234-28f5936c0ceb")
+	)
+	(bus
+		(pts
+			(xy 242.57 57.15) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf04789f-ed4f-4042-bc51-5ebd93599a55")
 	)
 	(wire
 		(pts
@@ -7762,7 +7647,7 @@
 	)
 	(bus
 		(pts
-			(xy 345.44 74.93) (xy 346.71 74.93)
+			(xy 345.44 72.39) (xy 344.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7812,7 +7697,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 91.44) (xy 345.44 91.44)
+			(xy 328.93 91.44) (xy 346.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8300,17 +8185,6 @@
 		)
 		(uuid "ffda5dd8-5b86-4b88-a03a-c0647f6b1157")
 	)
-	(text "Not Fitted header"
-		(exclude_from_sim no)
-		(at 179.705 180.975 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "530906a9-f563-43de-a124-06f182d1c38f")
-	)
 	(text "CM mechanicals"
 		(exclude_from_sim no)
 		(at 320.802 250.19 0)
@@ -8446,6 +8320,17 @@
 		)
 		(uuid "15955872-3a31-41fb-9d74-27c92b460d6e")
 	)
+	(label "GPIO5"
+		(at 71.12 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "160a9926-bf65-4092-a1ad-4dd741fa45bb")
+	)
 	(label "ETH_PI.TRD2_P"
 		(at 177.8 91.44 180)
 		(fields_autoplaced yes)
@@ -8478,6 +8363,17 @@
 			(justify left bottom)
 		)
 		(uuid "25163c9c-e18f-4308-99d9-fd5f17d90efa")
+	)
+	(label "GPIO7"
+		(at 161.29 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cf6e5c9-4573-4197-83b7-0639a83e8275")
 	)
 	(label "GPIO16"
 		(at 157.48 114.3 180)
@@ -8808,6 +8704,17 @@
 			(justify left bottom)
 		)
 		(uuid "73d39d6a-9111-4184-a6e2-46b6bed2ccd7")
+	)
+	(label "GPIO6"
+		(at 71.12 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75de9699-14f0-4ee5-b967-ea669a2f522d")
 	)
 	(label "SYNC_OUT"
 		(at 71.12 99.06 0)
@@ -9414,7 +9321,7 @@
 		)
 		(uuid "f935fcdf-b7d9-4693-b5e5-a1f7bbcf30e0")
 	)
-	(label "PCIE_nRST"
+	(label "PCIE_PI.nRST"
 		(at 345.44 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9505,18 +9412,6 @@
 			(justify left)
 		)
 		(uuid "1b50b677-9dec-4446-9176-3a01631843d6")
-	)
-	(hierarchical_label "GPIO7"
-		(shape bidirectional)
-		(at 163.83 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "223cbb32-3734-4873-a13b-f116c55a6f35")
 	)
 	(hierarchical_label "DPHY0_P{DPHY}"
 		(shape input)
@@ -9616,13 +9511,13 @@
 	)
 	(hierarchical_label "USB_PI{USB}"
 		(shape bidirectional)
-		(at 346.71 74.93 0)
+		(at 344.17 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4dd2011c-6801-4e43-8cfb-bcf6fd5e1877")
 	)
@@ -9662,21 +9557,9 @@
 		)
 		(uuid "6025055e-f6a3-42d2-b692-61091d85d623")
 	)
-	(hierarchical_label "GPIO6"
-		(shape bidirectional)
-		(at 69.85 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "608f41ff-dc8a-4a98-ab3f-ed939c53df4f")
-	)
 	(hierarchical_label "PCIE_PI{PCIE}"
 		(shape input)
-		(at 241.3 74.93 180)
+		(at 241.3 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9783,7 +9666,7 @@
 		(uuid "9755dc39-9145-47fb-9820-9202374fa4b5")
 	)
 	(hierarchical_label "GPIO_VREF"
-		(shape output)
+		(shape input)
 		(at 69.85 175.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9853,18 +9736,6 @@
 			(justify left)
 		)
 		(uuid "c41ecc3b-c4e9-42c4-9363-2fd47ea08290")
-	)
-	(hierarchical_label "GPIO5"
-		(shape bidirectional)
-		(at 69.85 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9425607-9e6e-4113-a3d5-77b7816c3a3c")
 	)
 	(hierarchical_label "USBOTG_ID"
 		(shape input)
@@ -10480,121 +10351,6 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
 					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 170.18 190.5 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "6c4dbaa2-4d73-4e88-a9be-7c9a9e8fcbb6")
-		(property "Reference" "J301"
-			(at 168.0972 182.4482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 168.0972 184.7596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "nf"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "3pin 0.1\" connector"
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dcf1618-9b71-4c9d-ada4-77d0a5eb2bbb")
-		)
-		(pin "2"
-			(uuid "701c187e-2cdb-41a7-9f86-962fdf090533")
-		)
-		(pin "3"
-			(uuid "554b48b4-58b1-4620-992b-f1b861fae51e")
-		)
-		(instances
-			(project "CM5_CB"
-				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
-					(reference "J301")
 					(unit 1)
 				)
 			)
