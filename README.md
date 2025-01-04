@@ -1,5 +1,5 @@
 # CM5_MINIMA_REV2
-_Compact, feature-filled, CM5 LoRaWAN carrier board_
+_Compact, feature-filled CM5 carrier board_
 
 ## **Warning**:
 The board is untested, but DRC looks fine. I will send out for production before the end of January 2025 and likely test the board by end January 2025.
