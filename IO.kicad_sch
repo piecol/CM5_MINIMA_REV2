@@ -5146,6 +5146,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 138.43 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b2065ae-4711-4eb1-a54a-f39b6b482d73")
+		(property "Reference" "#PWR0510"
+			(at 138.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.176 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c484fa-7b8b-4417-bf5d-8b7f68ac5de3")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
+					(reference "#PWR0510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 166.37 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5466,7 +5531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC1G07SE-7"
+		(property "Value" "SN74LVC1G14DBVR"
 			(at 77.724 38.1 0)
 			(effects
 				(font
@@ -5484,7 +5549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G07.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405141143_UMW-Youtai-Semiconductor-Co---Ltd--SN74LVC1G14DBVR_C434069.pdf"
 			(at 76.2 35.56 0)
 			(effects
 				(font
@@ -5511,7 +5576,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "74LVC1G07SE-7"
+		(property "P/N" "SN74LVC1G14DBVR"
 			(at 76.2 35.56 0)
 			(effects
 				(font
@@ -5961,72 +6026,6 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
 					(reference "C602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 138.43 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e382071d-ab95-4e9e-923e-a36f53ca457c")
-		(property "Reference" "#PWR0518"
-			(at 138.43 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_PI"
-			(at 134.874 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 138.43 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ff24a5b-01ff-41cc-855f-a50b1ea6cc80")
-		)
-		(instances
-			(project "CM5_MINIMA_2"
-				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
-					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
