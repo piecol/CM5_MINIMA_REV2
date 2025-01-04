@@ -8,6 +8,8 @@ _Proceed at your own risk._
 
  [PDF SCHEMATICS](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/CM5_MINIMA_2.pdf)
 
+![PCB](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/PCB.png)
+
 ## **Peripherals**:
 
 - USB-C PD (CM5 can negotiate power delivery!)
