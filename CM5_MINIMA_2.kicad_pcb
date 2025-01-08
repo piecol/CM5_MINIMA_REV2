@@ -1047,7 +1047,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/286f22a8-34bf-4142-a954-c70ada9c32c5")
 		(sheetname "IO")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 3.11 1.11)
 			(end 2.06 1.11)
@@ -1652,7 +1652,7 @@
 		(path "/962c7ee3-c22c-4eb7-a62d-19d1d090e823")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -5913,7 +5913,7 @@
 		(path "/7d437deb-e96d-4bc2-899e-cd8da55d59f8")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7611,7 +7611,7 @@
 		(path "/1c44d4eb-c743-49f7-bdb8-a06a49015682")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -10326,7 +10326,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/8a7dbabf-c461-478a-bef3-d5055ab30aaa")
 		(sheetname "IO")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 3.11 1.11)
 			(end 2.06 1.11)
@@ -11662,7 +11662,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/ccab5c93-a664-4af7-b860-ebf9c80768bd")
 		(sheetname "IO")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -4.04 -1.21)
 			(end 4.04 -1.21)
@@ -15388,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2010162039_LOTES-APCI0103-P001A_C841668.pdfhttps://www.lcsc.com/datasheet/lcsc_datasheet_2010162039_LOTES-APCI0103-P001A_C841668.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15414,7 +15414,7 @@
 				)
 			)
 		)
-		(property "Field5" "APCI0103-P001A"
+		(property "Field5" "MTSSD03-67MSW337"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15433,6 +15433,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8163318-22cb-4191-a033-0eafc634b929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" "MTSSD03-67MSW337"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f10a2b29-f518-4bd2-91fc-d015f80e7de1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field7" "MTCONN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8b03a7a-b4f0-4135-a823-9cabd6c34c80")
 			(effects
 				(font
 					(size 1 1)
@@ -16697,7 +16723,7 @@
 		(path "/6f7bbb61-5128-4260-b2f7-4ae929abd2cd/3f08bcce-7e2f-4063-beab-79967c66ef1d")
 		(sheetname "Ethernet")
 		(sheetfile "Ethernet.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 7.925 -18.31)
 			(end 7.925 -12.1)
@@ -17462,7 +17488,7 @@
 		(path "/28be391f-d6a1-4832-b2ab-69373a3cb681")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -23408,7 +23434,7 @@
 		(path "/1eadeea8-f530-4bcc-8de2-8208eeb6d80e")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -25154,7 +25180,7 @@
 		(path "/6c4db44e-ff3c-4d9c-b946-466b7ac88f9f")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
