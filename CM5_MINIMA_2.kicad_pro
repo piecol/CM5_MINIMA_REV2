@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|82370000|44145000|95f41628-27de-4027-84e1-223cbc5977de|d65846a4-a42c-4422-9566-38b33a3138b9",
+        "copper_edge_clearance|85370000|28095000|c59e5641-cb38-4cd6-9ee3-30bd46cc16ec|0d77c0af-1d23-4e5c-93c1-a045c6521bb7"
+      ],
       "meta": {
         "version": 2
       },
@@ -484,7 +487,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 153, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -501,7 +504,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
@@ -518,7 +521,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 195, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.147,
         "via_diameter": 0.45,
@@ -534,7 +537,7 @@
       "+3V3_PI": "rgb(255, 173, 0)",
       "+5V": "rgb(0, 206, 228)",
       "/PCIe-M2/M2_3v3": "rgb(255, 173, 0)",
-      "GND": "rgb(104, 104, 104)",
+      "GND": "rgb(122, 122, 122)",
       "VBUS_USB2.0": "rgb(200, 77, 176)"
     },
     "netclass_assignments": null,
