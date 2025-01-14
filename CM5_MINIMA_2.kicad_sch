@@ -2589,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eeeebaa-3eb1-422e-8a8c-e271d549cd69")
+	)
+	(wire
+		(pts
 			(xy 58.42 80.01) (xy 71.12 80.01)
 		)
 		(stroke
@@ -2819,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 137.16) (xy 214.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745e70e0-0969-4ac4-8d07-f74c0f7beb77")
+	)
+	(wire
+		(pts
 			(xy 123.19 39.37) (xy 104.14 39.37)
 		)
 		(stroke
@@ -2849,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 139.7) (xy 214.63 139.7)
+			(xy 173.99 139.7) (xy 189.23 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 137.16) (xy 214.63 137.16)
+			(xy 173.99 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4857,6 +4877,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 193.04 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46be3d2e-e1ae-46b6-9a99-a01d3c90f2a0")
+		(property "Reference" "R105"
+			(at 184.912 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 191.77 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "9233750"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "MCR10EZPJ000"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 0R M2012 5% "
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" "121629591"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c632fed7-7365-4085-a8f9-cb01074b465d")
+		)
+		(pin "2"
+			(uuid "375bc65e-4587-419d-9edc-f9522ae30ead")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 63.5 59.69 270)
 		(unit 1)
@@ -6202,6 +6346,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 193.04 137.16 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c69f1880-61de-4ffe-9588-cc06397167ba")
+		(property "Reference" "R106"
+			(at 184.912 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 191.77 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "9233750"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "MCR10EZPJ000"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 0R M2012 5% "
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" "121629591"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d261c5ad-020f-4f99-82e3-dcc1b58b9300")
+		)
+		(pin "2"
+			(uuid "27724a64-3cd0-4bdc-88cd-8143a35bede0")
+		)
+		(instances
+			(project "CM5_MINIMA_2"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:RCLAMP0502BA")
 		(at 60.96 87.63 90)
 		(unit 1)
@@ -7075,26 +7343,6 @@
 			)
 			(uuid "93bdc171-c521-4322-8efe-3923fe17f5ed")
 		)
-		(pin "GPIO2" input
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6c22788b-4cef-467d-994e-8eea77cb88bc")
-		)
-		(pin "GPIO3" input
-			(at 173.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ebc9a628-a24c-48b3-aba7-6a0333908849")
-		)
 		(pin "VBUS_EN" output
 			(at 123.19 134.62 180)
 			(effects
@@ -7264,6 +7512,26 @@
 				(justify left)
 			)
 			(uuid "fc088e99-1b80-4ea1-9a69-de47fddf7a11")
+		)
+		(pin "GPIO4" input
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bab8c5d6-2218-498c-9a0c-020c27bc973d")
+		)
+		(pin "GPIO5" input
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d2200db-cf94-4bec-bb7e-5e6a5aeba3ff")
 		)
 		(instances
 			(project "CM5_MINIMA_2"

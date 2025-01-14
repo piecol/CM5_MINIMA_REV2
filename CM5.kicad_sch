@@ -4538,10 +4538,6 @@
 		(uuid "65de8be9-09ad-436e-a877-49a82551e74f")
 	)
 	(no_connect
-		(at 71.12 119.38)
-		(uuid "6666cb26-5676-4213-9807-4a0c0e06ec10")
-	)
-	(no_connect
 		(at 345.44 152.4)
 		(uuid "683cb628-cfdb-45fd-9ecc-e753cfab4664")
 	)
@@ -4680,10 +4676,6 @@
 	(no_connect
 		(at 161.29 172.72)
 		(uuid "f114c355-3083-4078-b288-a4bdc42c71da")
-	)
-	(no_connect
-		(at 71.12 144.78)
-		(uuid "f138db3c-481c-4abd-ae2f-65ce22c8e77e")
 	)
 	(no_connect
 		(at 86.36 162.56)
@@ -6033,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 144.78) (xy 86.36 144.78)
+			(xy 69.85 144.78) (xy 86.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +7605,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 86.36 119.38)
+			(xy 69.85 119.38) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8316,17 +8308,6 @@
 		)
 		(uuid "15955872-3a31-41fb-9d74-27c92b460d6e")
 	)
-	(label "GPIO5"
-		(at 71.12 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "160a9926-bf65-4092-a1ad-4dd741fa45bb")
-	)
 	(label "ETH_PI.TRD2_P"
 		(at 177.8 91.44 180)
 		(fields_autoplaced yes)
@@ -8349,6 +8330,17 @@
 		)
 		(uuid "1b534be9-afe2-48d4-8bbe-e88126414701")
 	)
+	(label "GPIO8"
+		(at 157.48 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ca4389d-a6ad-4cb9-ba87-2300b798830d")
+	)
 	(label "HDMI1_D1_P"
 		(at 251.46 144.78 0)
 		(fields_autoplaced yes)
@@ -8359,17 +8351,6 @@
 			(justify left bottom)
 		)
 		(uuid "25163c9c-e18f-4308-99d9-fd5f17d90efa")
-	)
-	(label "GPIO7"
-		(at 161.29 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cf6e5c9-4573-4197-83b7-0639a83e8275")
 	)
 	(label "GPIO16"
 		(at 157.48 114.3 180)
@@ -8524,6 +8505,17 @@
 			(justify left bottom)
 		)
 		(uuid "4aad3a49-f395-4506-bac3-f7a592a1a836")
+	)
+	(label "GPIO3"
+		(at 71.12 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f4b7598-2127-4d7f-9260-49c04a3d9dbb")
 	)
 	(label "DPHY1_P.D3_P"
 		(at 251.46 200.66 0)
@@ -9108,6 +9100,17 @@
 		)
 		(uuid "c1728cd2-b269-4358-92d1-16b5817d8628")
 	)
+	(label "GPIO2"
+		(at 71.12 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6849620-77f6-4397-9b79-191ad5e3e6ef")
+	)
 	(label "HDMI1_SDA"
 		(at 332.74 137.16 0)
 		(fields_autoplaced yes)
@@ -9130,6 +9133,17 @@
 		)
 		(uuid "cae0d40a-7c51-4a2f-b56f-5af84bd3d9d6")
 	)
+	(label "GPIO7"
+		(at 157.48 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cafbe83b-d32b-43a9-916a-73361722e141")
+	)
 	(label "DPHY0_P.D0_P"
 		(at 351.79 101.6 180)
 		(fields_autoplaced yes)
@@ -9151,17 +9165,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf4da730-4802-4c6c-aa0e-5fab48a72fa0")
-	)
-	(label "GPIO8"
-		(at 157.48 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1b17c40-c7b2-4229-974d-deb3df998cc9")
 	)
 	(label "SD_DAT2"
 		(at 158.75 165.1 180)
@@ -9228,17 +9231,6 @@
 			(justify left bottom)
 		)
 		(uuid "e64ff298-01a2-4eb0-a419-c96c8b448dcd")
-	)
-	(label "GPIO4"
-		(at 71.12 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea291c46-a430-4625-8f73-c6aee6ec29e0")
 	)
 	(label "SD_DAT1"
 		(at 158.75 162.56 180)
@@ -9518,6 +9510,18 @@
 		)
 		(uuid "50979d4c-d6b1-48d4-9d41-78fdae3a9c78")
 	)
+	(hierarchical_label "GPIO5"
+		(shape input)
+		(at 69.85 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55a534e0-f142-4ae6-92de-2682b614500b")
+	)
 	(hierarchical_label "ETH_nLED_ACTIVITY"
 		(shape output)
 		(at 163.83 96.52 0)
@@ -9650,6 +9654,18 @@
 		)
 		(uuid "9755dc39-9145-47fb-9820-9202374fa4b5")
 	)
+	(hierarchical_label "GPIO4"
+		(shape input)
+		(at 69.85 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2a467ae-6dc9-429a-be1e-0471b1d9274e")
+	)
 	(hierarchical_label "GPIO_VREF"
 		(shape input)
 		(at 69.85 175.26 180)
@@ -9757,30 +9773,6 @@
 			(justify right)
 		)
 		(uuid "d096c3cb-8948-4700-84aa-023e2f5eb925")
-	)
-	(hierarchical_label "GPIO3"
-		(shape input)
-		(at 71.12 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5aa4af9-9ac3-45a7-bd2b-c12da79a23ff")
-	)
-	(hierarchical_label "GPIO2"
-		(shape input)
-		(at 71.12 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0278526-af2a-4ea5-847e-2f6a8aed1d36")
 	)
 	(hierarchical_label "+5V"
 		(shape input)

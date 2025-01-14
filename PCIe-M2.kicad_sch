@@ -4660,7 +4660,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 185.42 74.93 0)
+		(at 185.42 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +4672,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 185.42 77.47 0)
+		(at 185.42 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
