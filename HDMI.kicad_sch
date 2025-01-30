@@ -3454,7 +3454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "690-019-298-412"
+		(property "Value" "GT-HD001B-CNNG1"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field5" ""
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -3499,25 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2614936"
-			(at 167.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "690-019-298-412"
-			(at 167.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "EDAC"
+		(property "Field6" ""
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -3527,15 +3509,6 @@
 			)
 		)
 		(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
-			(at 167.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "UCON00802"
 			(at 167.64 55.88 0)
 			(effects
 				(font

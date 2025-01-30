@@ -1618,6 +1618,225 @@
 				)
 			)
 		)
+		(symbol "EasyEDA:TS-1010A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1010A-B"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SW-SMD_TS-1010A-B"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1010A-B_C381059.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C381059"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1010A-B_0_1"
+				(circle
+					(center -3.05 2.54)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.83 2.54) (xy -5.33 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.83 2.54) (xy -3.3 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 2.79) (xy 3.05 4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.56 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.3 2.54)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:RCLAMP0502BA"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2532,6 +2751,12 @@
 		(uuid "2836d85d-3437-4a71-a5de-5e469e30b49d")
 	)
 	(junction
+		(at 31.75 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2e53e8-8f2b-4c6c-b675-5af75c4aa798")
+	)
+	(junction
 		(at 50.8 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2544,10 +2769,22 @@
 		(uuid "91b22091-2178-4c87-bdf5-4be425a524c3")
 	)
 	(junction
+		(at 26.67 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9743ace9-0952-4f8f-b170-6e39859646c1")
+	)
+	(junction
 		(at 33.02 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7bd3bbb-2b5c-4799-bcf5-1c5807f78cc2")
+	)
+	(junction
+		(at 29.21 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df50d79a-2418-4bf6-b3c6-af278d0c5ee3")
 	)
 	(no_connect
 		(at 171.45 87.63)
@@ -2556,16 +2793,6 @@
 	(no_connect
 		(at 107.95 60.96)
 		(uuid "5efeb4ec-683d-449f-88b5-5364d73e61c0")
-	)
-	(wire
-		(pts
-			(xy 33.02 104.14) (xy 33.02 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a8dc4a-27eb-4d49-8aaf-b6e4a6bf13cb")
 	)
 	(wire
 		(pts
@@ -2586,6 +2813,16 @@
 			(type default)
 		)
 		(uuid "0baff09e-de87-4d45-b015-82d76b9f4b94")
+	)
+	(wire
+		(pts
+			(xy 31.75 125.73) (xy 34.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135659aa-b314-42b5-8913-740afd4544d2")
 	)
 	(wire
 		(pts
@@ -2669,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 97.79) (xy 26.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36008e42-395a-410d-94d9-d70c81f32e04")
+	)
+	(wire
+		(pts
 			(xy 148.59 74.93) (xy 137.16 74.93)
 		)
 		(stroke
@@ -2696,6 +2943,16 @@
 			(type default)
 		)
 		(uuid "3ed11138-7fcb-49e8-9953-bcb371e2dc79")
+	)
+	(wire
+		(pts
+			(xy 29.21 101.6) (xy 34.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418e068f-c4d4-44b9-9726-80b3199f7d05")
 	)
 	(wire
 		(pts
@@ -2739,6 +2996,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 118.11) (xy 49.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580413e7-684c-461a-82e3-071b5f43f922")
+	)
+	(wire
+		(pts
 			(xy 148.59 74.93) (xy 151.13 74.93)
 		)
 		(stroke
@@ -2779,6 +3046,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 123.19) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c90ea0-4539-48b3-b324-b37e6adc2550")
+	)
+	(wire
+		(pts
+			(xy 26.67 125.73) (xy 29.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e9facc-f46c-4153-9484-3893b871c777")
+	)
+	(wire
+		(pts
 			(xy 33.02 63.5) (xy 33.02 67.31)
 		)
 		(stroke
@@ -2786,6 +3073,16 @@
 			(type default)
 		)
 		(uuid "6bc71575-57fc-4f0c-9f38-7815350e5e3e")
+	)
+	(wire
+		(pts
+			(xy 29.21 125.73) (xy 31.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaa6369-d49e-40e8-93ec-64493bc34572")
 	)
 	(wire
 		(pts
@@ -2889,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 49.53 118.11)
+			(xy 45.72 123.19) (xy 46.99 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 120.65) (xy 33.02 123.19)
+			(xy 26.67 125.73) (xy 26.67 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2949,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 101.6) (xy 29.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f4f9be-4859-4a05-9488-bcc13ac1bfb3")
+	)
+	(wire
+		(pts
 			(xy 102.87 71.12) (xy 96.52 71.12)
 		)
 		(stroke
@@ -2986,6 +3293,16 @@
 			(type default)
 		)
 		(uuid "ac9f98c4-bcb7-4510-bb2e-173f5cad9004")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 34.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace8948f-e258-4d21-9e68-6980bf3c11ac")
 	)
 	(wire
 		(pts
@@ -3360,7 +3677,7 @@
 	)
 	(hierarchical_label "PWR_BUT"
 		(shape input)
-		(at 33.02 104.14 180)
+		(at 26.67 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3384,7 +3701,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 45.72 118.11 180)
+		(at 45.72 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3396,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 123.19 0)
+		(at 26.67 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3404,7 +3721,7 @@
 		(dnp no)
 		(uuid "05a7b8e4-2177-4f3c-8d43-b78f17fda66e")
 		(property "Reference" "#PWR0606"
-			(at 33.02 129.54 0)
+			(at 26.67 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.147 127.5842 0)
+			(at 26.797 132.6642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 123.19 0)
+			(at 26.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 123.19 0)
+			(at 26.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 123.19 0)
+			(at 26.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,6 +3970,94 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TS-1010A-B")
+		(at 29.21 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14ce3be8-623b-4c97-841c-d146cdb6066c")
+		(property "Reference" "SW501"
+			(at 35.052 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS-1010A-B"
+			(at 23.114 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-SMD_TS-1010A-B"
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1010A-B_C381059.html"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C381059"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8a962d9a-b56e-410b-ac94-7b54e2a746ff")
+		)
+		(pin "2"
+			(uuid "8de28a44-7ae5-488e-ad69-ae6e1288105d")
+		)
+		(pin "1"
+			(uuid "084cd96c-3c35-4f36-800c-ec2135e4ca46")
+		)
+		(pin "5"
+			(uuid "e451a735-23d9-47f1-910d-b9234dc58b48")
+		)
+		(pin "4"
+			(uuid "a390b606-a228-4638-8c9f-554295474300")
+		)
+		(instances
+			(project ""
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
+					(reference "SW501")
 					(unit 1)
 				)
 			)
@@ -4310,85 +4715,6 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
 					(reference "#PWR0610")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 33.02 115.57 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56492ce7-5c3e-47b4-9150-48199c5e0ff1")
-		(property "Reference" "SW602"
-			(at 18.288 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B3U-3000P"
-			(at 18.288 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
-			(at 27.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 33.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96854a73-5e30-4170-801b-daec6951bd42")
-		)
-		(pin "2"
-			(uuid "a7c1eab6-0186-43fb-b6af-68a7a8df781b")
-		)
-		(instances
-			(project "CM5_CB"
-				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/4ce4cfa7-ba20-49b9-8014-333351d4c7f7"
-					(reference "SW602")
 					(unit 1)
 				)
 			)
