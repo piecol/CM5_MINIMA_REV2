@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 151.13 68.58 90)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 158.75 68.58 90)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 		(fields_autoplaced yes)
 		(uuid "585b852b-ca79-4611-b3dc-2450362bc908")
 		(property "Reference" "R606"
-			(at 140.97 30.48 0)
+			(at 140.97 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,8 +4739,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
-			(at 140.97 33.02 0)
+		(property "Value" "2k2"
+			(at 140.97 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5685,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd87ed61-b093-48ef-8ba4-68d6f3a2d7d6")
 		(property "Reference" "R605"
-			(at 91.44 30.48 0)
+			(at 91.44 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,8 +5693,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
-			(at 91.44 33.02 0)
+		(property "Value" "2k2"
+			(at 91.44 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)

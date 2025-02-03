@@ -2494,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k2"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "107ac13c-5e37-44f4-89f0-fc0905d6bacb")
@@ -3933,7 +3933,7 @@
 	(footprint "kibuzzard-675DA866"
 		(layer "F.Cu")
 		(uuid "36490f7a-22f2-4266-9c1b-354334a549d7")
-		(at 107.9 67.37)
+		(at 107.89 67.57)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAxLjIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJGQU4iLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAyLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAzLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMy4wLCAiUGFkZGluZ1RvcEN0cmwiOiAyLjAsICJXaWR0aEN0cmwiOiAwLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-675DA866"
@@ -5239,7 +5239,7 @@
 		(path "/7d437deb-e96d-4bc2-899e-cd8da55d59f8")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -8840,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "7d8f94b7-ab3f-4ddf-a8a6-28f6c900db96")
@@ -11291,7 +11291,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/ccab5c93-a664-4af7-b860-ebf9c80768bd")
 		(sheetname "IO")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.04 -1.21)
 			(end 4.04 -1.21)
@@ -12143,7 +12143,7 @@
 	(footprint "kibuzzard-675DA850"
 		(layer "F.Cu")
 		(uuid "94dded6d-59d9-4330-90c7-709e7491091f")
-		(at 99.099718 65.358528)
+		(at 100.57 64.13)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAxLjIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJIRE1JIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMi4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMy4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDMuMCwgIlBhZGRpbmdUb3BDdHJsIjogMi4wLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-675DA850"
@@ -14567,7 +14567,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f91fd183-2a62-43f9-9c88-8df03d9684b8")
@@ -16139,7 +16139,7 @@
 		(path "/6f7bbb61-5128-4260-b2f7-4ae929abd2cd/3f08bcce-7e2f-4063-beab-79967c66ef1d")
 		(sheetname "Ethernet")
 		(sheetfile "Ethernet.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.925 -18.31)
 			(end 7.925 -12.1)
@@ -16904,7 +16904,7 @@
 		(path "/28be391f-d6a1-4832-b2ab-69373a3cb681")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -23083,7 +23083,7 @@
 		(path "/1eadeea8-f530-4bcc-8de2-8208eeb6d80e")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -25068,7 +25068,7 @@
 		(path "/6c4db44e-ff3c-4d9c-b946-466b7ac88f9f")
 		(sheetname "Root")
 		(sheetfile "CM5_MINIMA_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -25932,7 +25932,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "243c42c0-8937-4acf-bd95-4be03bc45bb3")
@@ -26378,7 +26378,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k2"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "ad88ce62-0603-4e6e-adfa-1f29364aed32")
