@@ -5049,7 +5049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 		(at 104.14 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5489,7 +5489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "nf"
+		(property "Value" "0R"
 			(at 196.85 43.18 90)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 194.31 39.37 0)
 			(effects
 				(font
@@ -5517,33 +5517,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "nf"
-			(at 194.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 194.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
 			(at 194.31 39.37 0)
 			(effects
 				(font
@@ -6228,7 +6201,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "TYPEC-305-ACP16H458"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -6442,7 +6415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
+		(property "Value" "2k2"
 			(at 85.598 51.054 0)
 			(effects
 				(font
@@ -6460,7 +6433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 95.25 50.8 0)
 			(effects
 				(font
@@ -6470,24 +6443,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
 			(at 95.25 50.8 0)
 			(effects
 				(font
@@ -6506,15 +6461,6 @@
 			)
 		)
 		(property "Field6" ""
-			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
 			(at 95.25 50.8 0)
 			(effects
 				(font
@@ -6584,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 193.04 137.16 0)
 			(effects
 				(font
@@ -7063,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 187.96 39.37 0)
 			(effects
 				(font

@@ -3881,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15K 1%"
+		(property "Value" "15k"
 			(at 124.46 35.56 90)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 124.46 39.37 0)
 			(effects
 				(font

@@ -4308,7 +4308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 68.58 0)
 			(effects
 				(font
@@ -4556,7 +4556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -5152,15 +5152,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "dni" "DNI"
-			(at 35.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -6376,7 +6367,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B3U-3000P"
+		(property "Value" "B3U-3100-P"
 			(at 18.288 71.12 90)
 			(effects
 				(font

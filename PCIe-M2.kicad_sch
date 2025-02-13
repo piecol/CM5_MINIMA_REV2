@@ -5298,7 +5298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 1%"
+		(property "Value" "10k"
 			(at 114.808 172.593 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -5326,51 +5326,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 113.03 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 113.03 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 113.03 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1002"
-			(at 113.03 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 10K M1005 1% 63mW"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -6067,7 +6022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 1%"
+		(property "Value" "100k"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -6085,7 +6040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -6095,60 +6050,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1003"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 100K M1005 1% 63mW"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -6749,7 +6650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.78mm_M2_Pad_TopOnly"
 			(at 251.46 87.63 0)
 			(effects
 				(font
@@ -7579,7 +7480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 195.58 82.55 0)
 			(effects
 				(font
@@ -7684,7 +7585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
+		(property "Value" "2k2"
 			(at 114.808 181.483 0)
 			(effects
 				(font
@@ -7702,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 113.03 180.34 0)
 			(effects
 				(font
@@ -7712,42 +7613,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
 			(at 113.03 180.34 0)
 			(effects
 				(font
@@ -8133,7 +7998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Cross-slot-countersunk-machine-screw_AOFENG-GB819-M2-0-4X3-304-A2-70-B_C5138758.html"
 			(at 254 142.24 0)
 			(effects
 				(font
@@ -8142,7 +8007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C5138758"
 			(at 254 142.24 0)
 			(effects
 				(font
