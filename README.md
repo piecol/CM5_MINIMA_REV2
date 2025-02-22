@@ -9,6 +9,7 @@ If you're not familiar with Raspberry Pi or single-board computers (SBCs), think
 https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032
 
 Get to know the story behind the MINIMA on Hackster.io:
+
 https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what-a98a93
 
 ![PCB_JLC](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/img_0338.jpg)
