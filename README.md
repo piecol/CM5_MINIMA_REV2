@@ -49,6 +49,7 @@ To use the **CM5 MINIMA REV2**, you'll need:
 To flash an operating system (OS) to the CM5, use the switch located on the bottom of the board to enable flashing mode. It is equivalent to the "Fit nRPI_BOOT to J2 (disable eMMC Boot) on the IO board jumper." on the CM5 IO board.
 Please refere to the official guidelines for further instructions:
 https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-the-io-board
+
 ![PCB_JLC_BOTTOM](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/1739773194746.jpeg)
 
 ## Applications
