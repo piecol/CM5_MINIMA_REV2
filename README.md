@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **CM5 MINIMA REV2** is a compact carrier board for the computing module 5 (CM5).
+The **CM5 MINIMA REV2** is a compact carrier board for the latest Raspberry Pi computing module 5.
 It is designed for embedded applications, DIY electronics, and low-power computing projects. Unlike traditional desktop computers, the CM5 is a small, efficient system that integrates essential computing hardware onto a single board. Whether you're a hobbyist, developer, or engineer, this module provides a versatile platform for various applications, including IoT, automation, and custom hardware development.
 
 If you're not familiar with Raspberry Pi or single-board computers (SBCs), think of the CM5 as a miniaturized computer that can handle tasks like data processing, networking, and hardware control, all while fitting in the palm of your hand. 
