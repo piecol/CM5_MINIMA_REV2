@@ -1,16 +1,16 @@
 # CM5_MINIMA_REV2
 _Compact, feature-filled CM5 carrier board_
 
-## **Warning**:
-The board is untested, but DRC looks fine. I will send out for production before the end of January 2025 and likely test the board by end January 2025.
+![PCB_JLC](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/img_0338.jpg)
 
-Rev1 works fine, chek my LinkedIn for some more info or the hackster.io article:
+Welcome to the MINIMA readme.
+
 
 https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what-a98a93
 
 _Proceed at your own risk._
 
- [PDF SCHEMATICS](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/CM5_MINIMA_2.pdf)
+[PDF SCHEMATICS](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/CM5_MINIMA_2.pdf)
 
 ![PCB](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/PCB.png)
 
