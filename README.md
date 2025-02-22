@@ -10,6 +10,11 @@ https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what
 
 ![PCB_JLC](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/img_0338.jpg)
 
+## Designed with KiCad
+
+MINIMA was developed using KiCad, a powerful open-source Electronic Design Automation (EDA) tool. KiCad enables designers to create high-quality PCB layouts and schematics while maintaining full control over their hardware designs. By leveraging open-source tools like KiCad, the CM5 MINIMA REV2 embraces accessibility, collaboration, and innovation in hardware development.
+It is also certified by the Open SOurce Hardware Association: https://certification.oshwa.org/it000020.html
+
 ## Key Features
 
 - **USB-C Power Delivery (PD):** Supports power negotiation for efficient energy use.
