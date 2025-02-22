@@ -44,6 +44,13 @@ To use the **CM5 MINIMA REV2**, you'll need:
 - A **display (HDMI)** and **input devices (USB keyboard/mouse)** for setup.
 - A **network connection** (Ethernet or Wi-Fi via an external adapter if needed).
 
+# Flashing OS
+
+To flash an operating system (OS) to the CM5, use the switch located on the bottom of the board to enable flashing mode. It is equivalent to the "Fit nRPI_BOOT to J2 (disable eMMC Boot) on the IO board jumper." on the CM5 IO board.
+Please refere to the official guidelines for further instructions:
+https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-the-io-board
+![PCB_JLC_BOTTOM](https://github.com/piecol/CM5_MINIMA_REV2/blob/main/PICS/1739773194746.jpeg)
+
 ## Applications
 
 - **IoT & Smart Devices:** Use sensors and network capabilities to create connected applications.
